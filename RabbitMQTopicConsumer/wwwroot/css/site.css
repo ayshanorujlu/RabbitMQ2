@@ -1,0 +1,42 @@
+html {
+  font-size: 14px;
+}
+
+@media (min-width: 768px) {
+  html {
+    font-size: 16px;
+  }
+}
+
+html {
+  position: relative;
+  min-height: 100%;
+}
+
+body {
+  margin-bottom: 60px;
+}
+
+.consumer {
+    border: 1px solid lightblue;
+    padding: 30px;
+}
+
+#selectForm2 {
+    display: flex;
+    flex-direction: column;
+}
+
+    #selectForm2 > label {
+        padding: 5px 10px;
+        border: 1px solid orange;
+        display: inline-block;
+        margin-top: 10px;
+        width: 20%;
+    }
+
+    #selectForm2 > button {
+        margin-top: 10px;
+        width: 20%;
+        border: 1px solid orange;
+    }

@@ -1,0 +1,43 @@
+html {
+  font-size: 14px;
+}
+
+@media (min-width: 768px) {
+  html {
+    font-size: 16px;
+  }
+}
+
+html {
+  position: relative;
+  min-height: 100%;
+}
+
+body {
+  margin-bottom: 60px;
+}
+
+
+.exchange {
+    border: 1px solid lightblue;
+    padding: 30px;
+}
+
+#selectForm1 {
+    display: flex;
+    flex-direction: column;
+}
+
+    #selectForm1 > label {
+        padding: 5px 10px;
+        border: 1px solid lightgray;
+        display: inline-block;
+        margin-top: 10px;
+        width: 20%;
+    }
+
+    #selectForm1 > button {
+        margin-top: 10px;
+        width: 20%;
+        border: 1px solid lightblue;
+    }
